@@ -99,7 +99,6 @@ function playerWins(cells) {
 }
 
 let curr = 0
-
 function draw() {
     let timer = setInterval(() => {
         $rows[curr].animate({
