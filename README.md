@@ -1,2 +1,1 @@
-# jquery-tic-tac-toe
-Creating a tic tac toe game with jQuery!
+# hey Troy sorry about this late submission. It said the folder it was in wasnt a repository, so I was unable to send it definately something I did wrong I reworked it with help from classmates, the day before it was due and the day after but never got it working others but I never got it working. I didnt really understand making logical until the War card game.

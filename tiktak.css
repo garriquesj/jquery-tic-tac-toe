@@ -1,0 +1,82 @@
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: #008CBA;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #008CBA;
+   margin: 0 auto;
+   width: 600px;
+}
+.GameBoard {
+    display: grid;
+    border: 2px solid #008CBA;
+    grid-template-columns: repeat(3, auto);
+    height: 600px;
+    width: 600px;
+    margin: 5px auto;
+    background-color:#ffffff;
+    color: #ffffff;
+}
+h2 { color: #008CBA;
+    font-family: 'Times New Roman';
+}
+.square{
+    background-color: #ffffff;
+    color: #008CBA;
+    text-align: center;
+    font-size: 30px;
+    border:2px solid #008CBA;
+    margin: 2px ;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 4px;
+    
+ 
+}
+.square:hover {
+    background-color: #008CBA;
+    color: #ffffff;
+    transition: 1s;
+
+}
+.square:active {
+    background-color: #008CBA;
+    transform:translateY(5px) ;
+
+}
+.restart { 
+    display: grid;
+    color: white;
+    background-color: #008CBA;
+    border: none;
+    padding: 20px 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    transition: .5s;
+    cursor: pointer;
+    
+}
+.restart:hover  {background-color: #ffffff;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+}
+.restart:active {
+    transform:translateY(5px) ;
+}
+.display {
+
+color: #008CBA;
+text-decoration: underline;
+padding:20px ;
+}
+.playerOne {
+  color: #f50404;  
+}
+.playerTwo {
+    color: #f50404;
+}
+
+ 
+   
+
+    
