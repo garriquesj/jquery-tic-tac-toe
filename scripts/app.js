@@ -25,7 +25,7 @@ let cellCount = 0;
 
 function checkWin(player) {
     turns++
-    if(turns > 4) {
+    if(turns >= 4) {
         for (let i = 0; i < winnersTable.length; i++) {
             for (let j = 0; j < winnersTable[i].length; j++) {
                 if (winnersTable[i][j].textContent === player) {
